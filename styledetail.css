@@ -1,0 +1,212 @@
+.mynavbar{
+	background-color: #FFFFFF;
+}
+.regular-text{
+	font: 500 14px 'Quicksand';
+	color: #A7A1A1;
+}
+.nyleneh{
+	color: #D89422;
+}
+.teks-1{
+	font: 15px 'Nunito';
+	letter-spacing: 0.85px;
+	color: #AFA9A9;
+}
+.teks-2{
+	font: 800 35px 'Nunito';
+	color: #000000;
+}
+.teks-3{
+	font: 500 20px 'Nunito';
+	letter-spacing: 0.22px;
+	color: #FFFFFF;
+}
+.teks-4{
+	font: 14px 'Nunito';
+	letter-spacing: 0.43px;
+	color: #AAA3A3;
+}
+.teks-5{
+	font: 500 18px 'Nunito';
+	color: #0A0808;
+}
+.teks-6{
+	font: 16px 'Nunito';
+	letter-spacing: 0.18px;
+	color: #AAA3A3;
+}
+.teks-7{
+	font: 13px 'Nunito';
+	letter-spacing: 0.14px;
+	color: #7D87C3;
+}
+.teks-8{
+	font: 16px 'Nunito';
+	letter-spacing: 0.13px;
+	color: #707070;
+	padding: 50px 0px 50px 0px;
+}
+.teks-9{
+	font: 16px 'Nunito';
+	letter-spacing: 0.18px;
+	color: #AAA3A3;
+	margin-top: 50px;
+}
+.teks-10{
+	font: 18px 'Quicksand';
+	letter-spacing: 0.04px;
+	color: #FFFFFF;
+}
+.teks-11{
+	font: 14px 'Quicksand';
+	letter-spacing: 0.03px;
+	color: #FFFFFF;
+}
+.teks-12{
+	font: 20px 'Nunito';
+	letter-spacing: 0.42px;
+	color: #FFFFFF;
+}
+.teks-13{
+	font: 700 19px 'Nunito';
+	letter-spacing: 0.85px;
+	color: #4253B5;
+}
+.nav-seje{
+	font: 700 19px 'Nunito';
+	letter-spacing: 0.38px;
+	color: #4253B5;
+	margin-right: 30px;
+	padding: 10px 25px 10px 25px;
+}
+.nav-seje:last-child{
+	margin-right: 0;
+}
+.tombol{
+	text-align: left;
+	background: #4253B5;
+	box-shadow: 0px 3px 6px #263ECB90;
+	border-radius: 10px;
+}
+.tombol-link{
+	border: 1px solid #4253B5;
+	border-radius: 50px;
+	width: 315px;
+	height: 72px;
+	margin-bottom: 50px;
+}
+.linku{
+	text-decoration: none;
+	font: 15px 'Nunito';
+	letter-spacing: 1.02px;
+	color: #C4C4C4;
+}
+.linku:hover{
+	text-decoration: none;
+}
+.container{
+	padding: 0px 50px 0px 50px;
+}
+.sec1{
+	background: #F2F3FA;
+	margin-top: 81px;
+	padding: 100px 0px 120px 0px;
+}
+.sec2{
+	background: #FFFFFF;
+	margin-top: -60px;
+	padding: 0px 0px 100px 0px;
+}
+.sec3{
+	padding-bottom: 100px;
+}
+.anjay{
+	margin-top: 175px;
+	width: 100%;
+	height: 300px;
+	background: #F2F3FA;
+	position: absolute;
+}
+.kotak-putih{
+	width: 100%;
+	height: 320px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 29px #00000029;
+	border-radius: 22px;
+	padding: 28px;
+	margin-top: 50px;
+}
+.footer{
+	background: #4253B5;
+	padding: 80px 0px 80px 0px;
+}
+.bawah-footer{
+	height: 70px;
+	padding-top: 15px;
+	background: #091664;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wadahtelpon{
+	width: 28px;
+	height: 28px;
+	background: #FFFFFF;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	text-align: center;
+	float: left;
+}
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #FFFFFF;
+}
+.preloader .loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.carousel-inner > .carousel-item > img,
+	.carousel-inner > .carousel-item > a > img {
+		margin: auto;
+}
+#myCarousel{
+	max-width: 650px;
+	margin: 0 auto;
+	background: #fff;
+}
+#thumbCarousel{
+	max-width: 650px;
+	margin-top: 25px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#thumbCarousel .thumb{
+	border: 1px solid #ccc;
+	background: #fff;
+}
+.thumb:hover{
+	cursor: pointer;
+}
+.thumb img{
+	opacity: 0.5;
+}
+.thumb img:hover{
+	opacity: 1;
+}
+.thumb.active img{
+	opacity: 1;
+	border: 1px solid #1d62b7;
+}

@@ -1,0 +1,79 @@
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #FFFFFF;
+}
+.preloader .loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+body{
+	background: transparent linear-gradient(180deg, #F7F8FF 0%, #DBE1FF 100%) 0% 0% no-repeat padding-box;
+	background-attachment: fixed;
+}
+.wadah{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wong-mlaku{
+	margin-top: 12%;
+}
+.tulisan1{
+	margin-top: 40px;
+	font: 2.5vh 'Nunito';
+	letter-spacing: 0.66px;
+	color: #707070;
+}
+.kotak-putih{
+	margin-top: 20px;
+	height: 220px;
+	background: #FFFFFF;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tulisan2{
+	font: 2vh 'Nunito';
+	letter-spacing: 0px;
+	color: #BCBCBC;
+}
+.tombol{
+	box-shadow: 0px 3px 18px #00000029;
+	border-radius: 10px;
+	background: #4687F1 0% 0% no-repeat padding-box;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.dalam-tombol{
+	font: 20px/27px 'Nunito';
+	color: #FFFFFF;
+}
+.awan-gendeng{
+	position: absolute;
+}
+.awan0{
+	top: 538px;
+	left: 162px;
+	width: 112px;
+	height: 83px;
+}
+.awan1{
+	top: 667px;
+	left: 1000px;
+	width: 99px;
+	height: 66px;
+}
+.awan2{
+	top: 637px;
+	left: 1118px;
+	width: 66px;
+	height: 50px;
+}
